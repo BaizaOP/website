@@ -1,0 +1,56 @@
+:root {
+  --color1: #4C5760;
+  --color2: #F97068;
+  --color3: #57C4E5;
+  --color4: #D1D646;
+  --background: #EDF2EF;
+}
+
+#name {
+  font-size: 300%;
+  color: var(--color1, black);
+  font-family: 'Roboto Mono', monospace;
+}
+#caption_text {
+  font-family: 'Libre Baskerville', serif;
+  color: var(--color3, black);
+  font-size: 33%;
+  padding-top: 1%;
+}
+h2 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+p {
+  color: var(--color1, black);
+  font-size: 100%
+}
+
+body {
+  padding-left: 10px;
+  background: var(--background, white); 
+  color: var(--color1, black); 
+  font-family: 'Roboto', serif;
+}
+
+a:visited {
+  color: var(--color1, green);
+}
+
+a:hover {
+  color: var(--color2, black);
+}
+
+code {
+  font-size: 120%;
+  color: var(--color3, red);
+}
+
+#bubba {
+  color: var(--color2, red);
+}
+
+.smlinks {
+  color: var(--color3, orange);
+}
+
